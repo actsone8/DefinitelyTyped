@@ -7,6 +7,7 @@ sandbox.start({ port: 4444 }).then(() => {});
 sandbox.start({ cwd: './idk/arc/' }).then(() => {});
 sandbox.start({ logLevel: 'normal' }).then(() => {});
 sandbox.start({ symlink: true }).then(() => {});
+sandbox.start({ env: { ENV_VAR1: 'value', ENV_VAR2: undefined } }).then(() => {});
 sandbox.start({}, () => {});
 
 sandbox.end().then(() => {});
