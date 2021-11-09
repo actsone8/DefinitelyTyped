@@ -1,4 +1,4 @@
-// Type definitions for @architect/sandbox 3.3
+// Type definitions for @architect/sandbox 4.2
 // Project: https://github.com/architect/sandbox#readme
 // Definitions by: Francis Gulotta <https://github.com/reconbot>
 //                 Scott Willeke <https://github.com/activescott>
